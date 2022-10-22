@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box!important;
+}
+/* body{
+    scrollbar-width: 20px !important;
+} */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ body::-webkit-scrollbar-thumb {
+    background-color: #171616;
+    border-radius:15px;
+}
+ /* body::-webkit-scrollbar-track {
+    background-color: red;
+} */
+.myNav{
+    width:60px;
+    z-index: 3;
+}
+.leftBox{
+    box-shadow:-10px -10px 4px #212229!important;
+    /* width: 500px !important;;
+    height: 730px !important;; */
+    /* z-index: 1; */
+}
+
+nav a:nth-child(1){
+    color:#FFEE4A
+}
+nav a:nth-child(2):hover{
+    color:#FFEE4A
+}
+nav a:nth-child(3):hover{
+    color:#FFEE4A
+}
+nav a:nth-child(4):hover{
+    color:#FFEE4A
+}
+nav a:nth-child(5):hover{
+    color:#FFEE4A
+}
+.myCard{
+    color:#E0E0E0!important;
+}
+/* myCardBody codes start */
+.frontAnimation p{
+    transition: 0.5s ease-out;
+}
+.frontAnimation:hover p{
+    cursor:pointer;
+    color:#FFEE4A;
+    text-shadow: 0 0 10px #FFEE4A, 0 0 20px #FFEE4A, 0 0 40px #FFEE4A;
+    font-size: 25px!important;
+}
+.myImg{
+    transition:all .7s;
+}
+.myImg:hover{
+    transform:scale(1.03)
+}
+
+/* Card-icon codes start */
+.card-icon a:nth-child(1):hover{
+    color:#FFEE4A
+}
+.card-icon a:nth-child(2):hover{
+    color:#FFEE4A
+}
+.card-icon a:nth-child(3):hover{
+    color:#FFEE4A
+}
+.card-icon a:nth-child(4):hover{
+    color:#FFEE4A
+}
+/* footer icons codes */
+.dowland:hover a{
+    color:#FFEE4A
+}
+.hire:hover a{
+    color:#FFEE4A
+}
+/* aboutMe codes start here */
+.aboutMe{
+    color:#E0E0E0;
+}
+.aboutMe-text{
+    font-size: 18px!important;
+}
+.about{
+    color:#FFEE4A;
+}
+
+.xerite iframe{
+    width:90% !important;
+    height: 250px !important;
+}
+
+.allRow{
+    height: 500px !important;
+}
+.sendMessage{
+    width:170px
+}
+.sendMessage:hover a{
+    color:#FFEE4A !important;
+     transition:all .7s;
+}
+
+@media (min-width: 1400px) {
+    .rightBox{
+    height:675px !important;
+    overflow-y:auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+.rightBox::-webkit-scrollbar{
+    width:5px;
+}
+.rightBox::-webkit-scrollbar-thumb{
+    background-color: #171616;
+    border-radius: 15px;
+}
+}
