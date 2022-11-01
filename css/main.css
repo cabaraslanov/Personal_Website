@@ -3,10 +3,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box!important;
+    
 }
-/* body{
-    scrollbar-width: 20px !important;
-} */
 body::-webkit-scrollbar {
     width: 5px;
 }
@@ -16,6 +14,17 @@ body::-webkit-scrollbar {
 }
  /* body::-webkit-scrollbar-track {
     background-color: red;
+} */
+
+/* .myBar{
+    width:60px;
+    height:60px;
+    color:#E0E0E0;
+    display: none;
+
+}
+.myBar:hover i{
+    color: #FFEE4A;
 } */
 .myNav{
     width:60px;
@@ -125,3 +134,8 @@ nav a:nth-child(5):hover{
     border-radius: 15px;
 }
 }
+/* @media (max-width:600px) {
+    .myBar{
+        display:block;
+    }
+} */
